@@ -15,5 +15,3 @@ where release_date = 1990;
 SELECT * FROM albums
 where sales < 20;
 #All genre with all pick
-SELECT * FROM albums
-where genre = "Rock";
