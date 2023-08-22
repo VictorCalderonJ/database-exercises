@@ -1,5 +1,5 @@
 USE employees;
-
+SHOW DATABASES;
 # Create a file named where_exercises.sql.
 # Make sure to use the employees database before you begin.
 
@@ -7,7 +7,6 @@ USE employees;
 
 SELECT * FROM employees
 WHERE first_name IN ('Irena', 'Vidya', 'Maya');
-
 
 # Find all employees whose last name starts with 'E' — 7,330 rows.
 SELECT * FROM employees
