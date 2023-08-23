@@ -10,7 +10,7 @@ DELETE FROM albums
        WHERE albums.genre = 'disco';
 
 DELETE FROM albums
-       WHERE artist = 'Whitney Houston';
+       WHERE id = 2;
 
 
 SELECT * FROM albums;
